@@ -8,11 +8,19 @@ Deluxe is provided as a self-contained binary. See the [releases page](https://g
 
 To install Deluxe, just place it on your path. 
 
-For example, if you are using macOS: 
+### macOS
 
 ```bash=
 wget "https://github.com/njlr/deluxe/releases/download/v0.1.0/deluxe-macos" -O /usr/local/bin/deluxe
 chmod +x /usr/local/bin/deluxe
+deluxe
+```
+
+### Linux
+
+```bash=
+sudo wget "https://github.com/njlr/deluxe/releases/download/v0.1.0/deluxe-linux" -O /usr/bin/deluxe
+sudo chmod +x /usr/bin/deluxe
 deluxe
 ```
 
