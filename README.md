@@ -4,12 +4,16 @@ A simple Philips Hue app.
 
 ## Install
 
-If you are using macOS with Homebrew or Linux with Linuxbrew: 
+Deluxe is provided as a self-contained binary. See the [releases page](https://github.com/njlr/deluxe/releases) for downloads. 
+
+To install Deluxe, just place it on your path. 
+
+For example, if you are using macOS: 
 
 ```bash=
-brew install njlr/deluxe
-deluxe --version
-dlx --version
+wget "https://github.com/njlr/deluxe/releases/download/v0.1.0/deluxe-macos" -O /usr/local/bin/deluxe
+chmod +x /usr/local/bin/deluxe
+deluxe
 ```
 
 ## Usage
