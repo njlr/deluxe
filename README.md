@@ -2,6 +2,8 @@
 
 A simple Philips Hue app. 
 
+[![Travis](https://img.shields.io/travis/njlr/deluxe.svg)](https://travis-ci.org/njlr/deluxe) 
+
 ## Install
 
 Deluxe is provided as a self-contained binary. See the [releases page](https://github.com/njlr/deluxe/releases) for downloads. 
