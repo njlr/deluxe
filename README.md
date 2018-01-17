@@ -68,6 +68,12 @@ Or even a room name:
 deluxe set kitchen cyan 
 ```
 
+Colors can also be fetched from Google images; just provide a search string: 
+
+```bash=
+deluxe set bedroom "forest green"
+```
+
 ## Build
 
 ```bash=
