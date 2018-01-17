@@ -12,6 +12,7 @@ export const namesToLightIds = async (api, names) => {
   return _(names).map(x => {
     if (!Number.isSafeInteger(x)) {
       const rooms = _(groups)
+        .filter(group => group.type.toLowerCase() == 'room')
         .filter(room => room.name.trim().toLowerCase() == x.trim().toLowerCase())
         .uniq()
         .value();
