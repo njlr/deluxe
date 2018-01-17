@@ -31,13 +31,16 @@ deluxe
 First, you must connect to the Philips Hue Bridge: 
 
 ```bash=
-deluxe
+deluxe setup
 ```
 
 To view your lights: 
 
 ```bash=
 deluxe status
+
+# Or just
+deluxe
 ```
 
 To switch lights on and off: 
