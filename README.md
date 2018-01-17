@@ -58,7 +58,7 @@ deluxe set 1 2 red
 deluxe set 3 #f5ee6b
 
 # Sets light 4 to rgb(255, 160, 40)
-deluxe set 4 rgb(255, 160, 40)
+deluxe set 4 "rgb(255, 160, 40)"
 ```
 
 You can also use `all` in place of a light number: 
