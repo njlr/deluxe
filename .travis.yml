@@ -11,5 +11,6 @@ deploy:
   file: 
    - "./dist/macos/deluxe"
    - "./dist/linux/deluxe"
+  skip_cleanup: true
   on:
     repo: njlr/deluxe
