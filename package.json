@@ -10,8 +10,8 @@
   },
   "scripts": {
     "compile": "webpack",
-    "bundle-macos": "pkg ./dist/index.js --target node9-macos-x64 -o ./dist/macos/deluxe ",
-    "bundle-linux": "pkg ./dist/index.js --target node9-linux-x64 -o ./dist/linux/deluxe ",
+    "bundle-macos": "pkg ./dist/index.js --target node9-macos-x64 -o ./dist/deluxe-macos ",
+    "bundle-linux": "pkg ./dist/index.js --target node9-linux-x64 -o ./dist/deluxe-linux ",
     "build": "rm -rf dist && mkdir -p dist && yarn compile && yarn bundle-macos && yarn bundle-linux"
   },
   "dependencies": {
