@@ -26,6 +26,12 @@ sudo chmod +x /usr/bin/deluxe
 deluxe
 ```
 
+You may also want to create a shorter alias: 
+
+```bash=
+alias dlx=deluxe
+```
+
 ## Usage
 
 First, you must connect to the Philips Hue Bridge: 
